@@ -26,8 +26,8 @@ export default {
       }).then(response => {
         this.$emit('new', response.data);
       })
-      
-    }
+
+    },
   },
 }
 </script>
